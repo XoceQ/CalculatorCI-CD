@@ -38,7 +38,7 @@ public class CalculatorTest {
 
     @Test
     public void testAdd() {
-        double result = calculator.add(6.0, 3.0);
+        double result = calculator.add(5.0, 3.0);
         assertEquals(8.0, result, 0.001); // Assert that the result is as expected with a delta (tolerance)
     }
 
